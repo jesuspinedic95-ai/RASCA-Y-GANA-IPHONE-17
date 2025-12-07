@@ -1,0 +1,22 @@
+<! DOCTYPE html>
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8" />
+ <meta nombre="viewport" content="width=device-width, initial-scale=1.0" />
+ <título>Verificar Boleto - Rasca y Gana</título>
+    <link rel="stylesheet" href="styles.css" />
+</cabeza>
+<cuerpo>
+    <div class="card">
+        <h2>Verificación de Boleto</h2>
+        <p>Ingresa tu código:</p>
+
+        <input id="campo" type="text" placeholder="Ejemplo: A123" />
+        <button onclick="verificar()">Verificar</button>
+
+        <p id="resultado"></p>
+    </div>
+
+    <script src="app.js"></script>
+</cuerpo>
+</html>
