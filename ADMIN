@@ -1,0 +1,30 @@
+<! DOCTYPE html>
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8" />
+ <meta nombre="viewport" content="width=device-width, initial-scale=1.0" />
+ <Título>Panel de Administración - Rasca y gana</título>
+    <link rel="stylesheet" href="styles.css" />
+</cabeza>
+<cuerpo>
+    <div class="card">
+        <h2>Panel de Administrador</h2>
+
+        <button onclick="cargarDatos()">Cargar reporte</button>
+        <p id="estado"></p>
+
+ <table id="table">
+ < adelante>
+                <tr>
+ <>Código</th>
+ <>Premio</segundo>
+ <>Redimido</TH>
+                </tr>
+            </thead>
+ <tbody id="row"></tbody>
+ </mesa>
+    </div>
+
+    <script src="app.js"></script>
+</cuerpo>
+</html>
